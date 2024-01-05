@@ -1,0 +1,34 @@
+.todo-body{
+    width: 100%;
+    list-style: none;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.todo-body > li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 3px 0;
+  
+}
+.todo-body > li > span{
+    font-size: 14px;
+    color: #fff;
+    flex: 1;  
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 3%;  
+}
+.todo-body > li > button{
+    height: 20px;
+    font-size: 12px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
